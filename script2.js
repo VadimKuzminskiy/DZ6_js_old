@@ -37,15 +37,15 @@ function objectMap(arr) {
   let male = 0;
   let female = 0;
 
-  for (let i = 0; i < array.length; i++) {
-    ageSumm = ageSumm + arr[i].age;
+  // for (let i = 0; i < array.length; i++) {
+  //   ageSumm = ageSumm + arr[i].age;
 
-    if(arr[i].sex === 'male') {
-      male++
-    } else {
-      female++
-    }
-  }
+  //   if(arr[i].sex === 'male') {
+  //     male++
+  //   } else {
+  //     female++
+  //   }
+  // }
   
   arr.forEach(function (item) {
     ageSumm = ageSumm + item.age;
